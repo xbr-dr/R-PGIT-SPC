@@ -1,0 +1,5 @@
+x=as.integer(readline(prompt = "Enter 1st number"))
+y=as.integer(readline(prompt = "Enter 2nd number"))
+operation=readline(prompt = "Enter the operator")
+answer<-switch(operation,"+","-","*","/","%%")
+print(answer)
